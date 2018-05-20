@@ -1,4 +1,4 @@
-export let scrollTo = function (el, type) {
+export let scrollTo = function (el, type = 1) {
   this.init(el, type);
 };
 
